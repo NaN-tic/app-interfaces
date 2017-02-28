@@ -5,6 +5,7 @@ export interface Inventory {
 	company_id?: string;
 	date: string;
 	location: Location;
+	state: string;
 	lines?: InventoryLines[];
 	id: number;
 }
