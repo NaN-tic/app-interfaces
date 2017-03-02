@@ -4,17 +4,17 @@
  */
 
 export interface User {
-  
-  employee_rec_name?: string;
-  employee_id: number;
-  employee_party_name?: string;
-  employee_party_id: number;
-  language_code?: string;
-  company_id: number;
+
+  'employee.rec_name'?: string;
+  employee: number;
+  'employee.party.name'?: string;
+  'employee.party': number;
+  'language.code'?: string;
+  company: number;
 }
 
 export interface UserSession {
 	userId: string;
 	sessionId: string;
-	database?: string; 
+	database?: string;
 };

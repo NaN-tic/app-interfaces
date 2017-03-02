@@ -1,6 +1,6 @@
 export interface Party {
 	name: string,
 	code: string,
-	addresses_street : string,
-	addresses_country_name: string
+	'addresses.street' : string,
+	'addresses.country.name': string
 }

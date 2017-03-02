@@ -6,6 +6,6 @@
 export interface Location {
 	name: string;
 	code: string;
-	parent_name: string;
+	'parent.name': string;
 	id: number;
 }
