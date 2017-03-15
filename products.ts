@@ -1,6 +1,6 @@
 export interface Products {
 	name: string;
 	rec_name: string;
-	codes_number: string;
+	'codes.number': string;
 	id: number;
 }

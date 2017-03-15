@@ -2,7 +2,7 @@ import { Location } from './location'
 import { Products } from './products'
 
 export interface Inventory {
-	compan?: string;
+	company?: string;
 	date: string;
 	location: Location;
 	state: string;
