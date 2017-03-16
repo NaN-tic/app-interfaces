@@ -7,6 +7,7 @@ export interface Inventory {
 	location: Location;
 	state: string;
 	lines?: InventoryLines[];
+	lost_found : number;
 	id: number;
 }
 
