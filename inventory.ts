@@ -16,4 +16,6 @@ export interface InventoryLines {
 	quantity: number;
 	expected_quantity?: number;
 	id: number;
+	lot?: string;
+	'lot.rec_name'?: string;
 }
