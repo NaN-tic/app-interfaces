@@ -8,6 +8,7 @@ export interface Shipment {
   catalog: number,
   state: string,
   planned_date?: any,
+  planned_start_date: any,
   catalog_lines?: any
 }
 
