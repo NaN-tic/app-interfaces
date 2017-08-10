@@ -1,6 +1,6 @@
 export interface Products {
 	name: string;
 	rec_name: string;
-	'codes.number': string;
+	codes_number?: string[];
 	id: number;
 }

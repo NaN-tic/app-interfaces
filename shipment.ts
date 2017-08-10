@@ -1,3 +1,4 @@
+
 export interface Shipment {
 	id: number,
 	state: string,
@@ -7,4 +8,5 @@ export interface Shipment {
 	code: string,
 	reference: string,
 	planned_date: string,
+	moves?: any[]
 }
