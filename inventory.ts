@@ -1,21 +1,26 @@
+/**
+ * Inventory and InventoryLines interface for stock
+ * DO NOT MODIFY THIS FILE, EXTEND THE INTERFACE INSTEAD
+*/
+
 import { Location } from './location'
 import { Products } from './products'
 
 export interface Inventory {
-	company?: string;
-	date: string;
-	location: Location;
-	state: string;
-	lines?: InventoryLines[];
-	lost_found : number;
-	id: number;
+    id: number;
+    company?: string;
+    date: string;
+    location: Location;
+    state: string;
+    lines?: InventoryLines[];
+    lost_found : number;
 }
 
 export interface InventoryLines {
-	product: Products;
-	quantity: number;
-	expected_quantity?: number;
-	id: number;
-	lot?: string;
-	'lot.rec_name'?: string;
+    id: number;
+    product: Products;
+    quantity: number;
+    expected_quantity?: number;
+    lot?: string;
+    'lot.rec_name'?: string;
 }

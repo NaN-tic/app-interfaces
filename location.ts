@@ -1,11 +1,11 @@
 /**
- * Location interface
- * The default values are , name of the location, code of the location
- * parent of the location and the id
- */
+ * Locaton interface for stock
+ * DO NOT MODIFY THIS FILE, EXTEND THE INTERFACE INSTEAD
+*/
+
 export interface Location {
-	name: string;
-	code: string;
-	'parent.name': string;
-	id: number;
+    id: number;
+    name: string;
+    code: string;
+    'parent.name': string;
 }
